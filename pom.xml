@@ -7,6 +7,18 @@
   <version>1.0</version>
   <name> Maven Enterprise Application</name>
   <url>http://maven.apache.org</url>
+  <distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>releases</name>
+	      <url>http://13.232.225.155:8081/repository/hima-releases/</url>
+	    </repository>
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>snapshot </name>
+	      <url>http://13.232.225.155:8081/repository/hima-snapshot/</url>
+	    </snapshotRepository>
+	</distributionManagement>
   <modules>
     <module>MavenEnterpriseApp-ear</module>
     <module>MavenEnterpriseApp-web</module>
