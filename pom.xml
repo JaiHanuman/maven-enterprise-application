@@ -9,14 +9,14 @@
   <url>http://maven.apache.org</url>
   <distributionManagement>
 	    <repository>
-	      <id>nexus</id>
+	      <id>releases</id>
 	      <name>releases</name>
-	      <url>http://13.232.225.155:8081/repository/hima-releases/</url>
+	      <url>http://10.7.157.204:8081/artifactory/libs-release-local/</url>
 	    </repository>
 	    <snapshotRepository>
-	      <id>nexus</id>
+	      <id>snapshots</id>
 	      <name>snapshot </name>
-	      <url>http://13.232.225.155:8081/repository/hima-snapshot/</url>
+	      <url>http://10.7.157.204:8081/artifactory/libs-snapshot-local/</url>
 	    </snapshotRepository>
 	</distributionManagement>
   <modules>
